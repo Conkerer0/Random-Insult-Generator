@@ -1,2 +1,2 @@
-# Really-Bad-Random-INsult-Generator
+# Really-Bad-Random-Insult-Generator
 A very poorly coded insult generator.
