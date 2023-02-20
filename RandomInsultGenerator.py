@@ -1,7 +1,14 @@
-import random
-#random instults
+#imports
 
-words1_List = ['Stinky ','Smelly ','Gross ','Fat ','Rancid ','Turgid ','Poopy ','Sweaty ','Facist ']
-words2_List = ['Awful ','Disgusting ','Upperclass ','American ','Silly ','Sussy ','Sus ','Amongletonitisy ','Capitalistic ']
-words3_List = ['Wee Wee ','Shart ','Corpse ','Grandma ','Grandad ','Poo Poo ','Amongle ','Pringleton ','Antishart ']
-print(random.choice(words1_List)+random.choice(words2_List)+random.choice(words3_List))
+import random
+
+#lists
+
+adverbs = ['incredibly ','highly ','100% ','overly ','massively ','crazily ','hugely ','stupidly ','insanely ']
+adjectives1 = ['stinky ','smelly ','gross ','fat ','rancid ','turgid ','shitty ','sweaty ','facist ']
+adjectives2 = ['awful ','disgusting ','upperclass ','american ','silly ','sussy ','sus ','suspicious ','capitalistic ']
+nouns = ['Lord Farquad lookin aah ','shart ','corpse ','grandma ','grandad ','poo poo ','amongle ','scumbag ','blobfish ', 'bottomfeeder' ]
+
+#printing values
+
+print ("You " + random.choice(adjectives1) + random.choice(adjectives2) + random.choice(nouns))
